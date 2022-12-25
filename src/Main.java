@@ -16,6 +16,7 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("    Курсовая работа. 2 курс. Создание ежедневника");
+        System.out.println();
         try (Scanner scanner = new Scanner(System.in)) {
             scanner.useDelimiter("\n");
             label:
