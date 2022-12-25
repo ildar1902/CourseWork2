@@ -7,4 +7,9 @@ public class OneTime implements Repeatability{
     public LocalDateTime nextTime(LocalDateTime currentDateTime) {
         return null;
     }
+
+    @Override
+    public String toString() {
+        return "Однократно";
+    }
 }

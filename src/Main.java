@@ -58,7 +58,7 @@ public class Main {
                 if (tasksForDay.isEmpty()) {
                     System.out.println("Задачи на " + date.format(Constant.DATE_FORMATTER) + " не найдены!");
                 } else {
-                    System.out.println("задачи на " + date.format(Constant.DATE_FORMATTER) + ": ");
+                    System.out.println("задачи на " + date.format(Constant.DATE_FORMATTER) + ":\n");
                     for (Task task : tasksForDay) {
                         System.out.println(task);
                     }

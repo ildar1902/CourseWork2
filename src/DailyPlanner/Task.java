@@ -1,5 +1,6 @@
 package DailyPlanner;
 
+import util.Constant;
 import util.StringUtils;
 
 import java.time.*;
@@ -98,4 +99,13 @@ public class Task {
         return Objects.hash(heading, id);
     }
 
+    @Override
+    public String toString() {
+        return " id " + id +
+                "\n" + heading +
+                "\n" + description +
+                "\n" + taskType +
+                "\n" + dateTime.format(Constant.DATE_TIME_FORMATTER) +
+                "\n" + repeatability + "\n";
+    }
 }

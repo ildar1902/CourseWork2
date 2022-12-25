@@ -8,4 +8,9 @@ public class Yearly implements Repeatability{
         return currentDateTime.plusYears(1);
     }
 
+    @Override
+    public String toString() {
+        return "ежегодно";
+    }
+
 }
